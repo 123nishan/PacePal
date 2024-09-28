@@ -1,4 +1,5 @@
 pluginManagement {
+	includeBuild("build-logic")
 	repositories {
 		google {
 			content {
@@ -18,7 +19,7 @@ dependencyResolutionManagement {
 		mavenCentral()
 	}
 }
-
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "PacePal"
 include(":app")
 include(":auth:data")
@@ -34,3 +35,4 @@ include(":run:domain")
 include(":run:presentation")
 include(":run:location")
 include(":run:network")
+
