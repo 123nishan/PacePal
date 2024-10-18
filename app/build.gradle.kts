@@ -1,9 +1,7 @@
 plugins {
-	alias(libs.plugins.android.application)
-	alias(libs.plugins.jetbrainsKotlinAndroid)
 	alias(libs.plugins.mapsplatform.secrets.plugin)
-	alias(libs.plugins.compose.compiler)
 	alias(libs.plugins.pacepal.android.application.compose)
+	alias(libs.plugins.pacepal.jvm.ktor)
 }
 
 android {

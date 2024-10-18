@@ -34,5 +34,17 @@ gradlePlugin {
             id = "pacepal.android.feature.ui"
             implementationClass = "AndroidFeatureUiConventionPlugin"
         }
+        register("androidRoom"){
+            id = "pacepal.android.room"
+            implementationClass = "AndroidRoomConventionPlugin"
+        }
+        register("jvmLibrary"){
+            id = "pacepal.jvm.library"
+            implementationClass = "JvmLibraryConventionPlugin"
+        }
+        register("jvmKtor"){
+            id = "pacepal.jvm.ktor"
+            implementationClass = "JvmKtorConventionPlugin"
+        }
     }
 }
