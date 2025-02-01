@@ -11,7 +11,7 @@ android {
 dependencies {
 implementation(projects.auth.domain)
 implementation(projects.core.domain)
-implementation(projects.auth.data)
+implementation(projects.core.data)
 //	implementation(libs.androidx.core.ktx)
 //	implementation(libs.appcompat)
 //	implementation(libs.material)
