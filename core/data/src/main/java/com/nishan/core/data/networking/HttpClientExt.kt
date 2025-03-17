@@ -14,7 +14,9 @@ import io.ktor.client.request.url
 import io.ktor.client.statement.HttpResponse
 import io.ktor.util.network.UnresolvedAddressException
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.ensureActive
 import kotlinx.serialization.SerializationException
+import kotlin.coroutines.coroutineContext
 
 suspend inline fun <reified Response : Any> HttpClient.get(
     route: String,

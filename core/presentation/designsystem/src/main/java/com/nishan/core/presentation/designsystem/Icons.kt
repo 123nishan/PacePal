@@ -1,7 +1,9 @@
 package com.nishan.core.presentation.designsystem
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.vectorResource
 val AnalyticsIcon: ImageVector
     @Composable
@@ -66,9 +68,9 @@ val LockIcon: ImageVector
 //val LogoIcon: ImageVector
 //    @Composable
 //    get() = ImageVector.vectorResource(id = R.drawable.logo)
-val LogoIcon: ImageVector
+val LogoIcon: Painter
     @Composable
-    get() = ImageVector.vectorResource(id = R.drawable.ic_launcher)
+    get() = painterResource(id = R.drawable.pacepal_img)
 
 val LogoutIcon: ImageVector
     @Composable

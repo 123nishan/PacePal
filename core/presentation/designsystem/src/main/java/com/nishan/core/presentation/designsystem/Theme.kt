@@ -20,6 +20,7 @@ val DarkColorScheme = darkColorScheme(
     onPrimary = PacePalBlack,
     onBackground = PacePalWhite,
     onSurfaceVariant = PacePalGray,
+    error = PacePalDarkRed
 )
 
 @Composable
